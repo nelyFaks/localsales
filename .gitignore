@@ -1,0 +1,19 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+/*.php
+/.htaccess
+
+# Environment/config
+wp-config.php
+
+# Common junk
+.DS_Store
+Thumbs.db
+
+# Logs/cache
+wp-content/cache/
+wp-content/debug.log
+
+# Optional: uploads can be big
+wp-content/uploads/
